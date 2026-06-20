@@ -2,8 +2,6 @@ extends RigidBody2D
 
 # TODO:
 # Add collision shape for the player
-# Also I added that texture of player as "TextureRect" which is a "Control" node
-# I'm not sure, if that was supposed to be a "Control" node
 
 # Can be part of a power up later
 # What's the mechanic like? I'm not sure about the core mechanic right now

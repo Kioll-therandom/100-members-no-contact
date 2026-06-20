@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://e1d03bbv2uh"]
 
 [ext_resource type="Script" uid="uid://bn5pltvin1n7e" path="res://Actual Game Folder/scripts/player.gd" id="1_7buym"]
-[ext_resource type="Texture2D" uid="uid://0ctdxb1nrunw" path="res://Miscellanious Assets Dump/Image/beyblades/pixelart/bey_blue_128x128.png" id="2_kmxop"]
+[ext_resource type="Texture2D" uid="uid://0ctdxb1nrunw" path="res://Miscellanious Assets Dump/Image/beyblades/pixelart/bey_blue.png" id="2_kmxop"]
 [ext_resource type="AudioStream" uid="uid://c055dhcymjmqp" path="res://Miscellanious Assets Dump/Audio/ripcord.mp3" id="3_kmxop"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_7buym"]
@@ -18,6 +18,7 @@ script = ExtResource("1_7buym")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2048784928]
 position = Vector2(-3.8146973e-06, -3.8146973e-06)
+texture = ExtResource("2_kmxop")
 texture = ExtResource("2_kmxop")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1556826632]
